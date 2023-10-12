@@ -1,0 +1,76 @@
+/* AuthComponent.css */
+
+/* Container */
+.auth-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    background-color: #ccc;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 320px;
+    padding: 30px;
+  }
+  
+  /* Heading */
+  .auth-heading {
+    font-size: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+    color: rgb(60, 51, 51);
+  }
+  
+  /* Input fields */
+  .auth-input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #1e1854;
+    border-radius: 10px;
+  }
+  
+  /* Login button */
+  .auth-button {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    background-color: #798ca1;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  .auth-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error message */
+  .auth-error {
+    font-size: 14px;
+    color: #e82b2b;
+    margin-top: 10px;
+  }
+  
+  /* Registration link */
+  .auth-register {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .auth-register a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .auth-register a:hover {
+    text-decoration: underline;
+  }
+  
